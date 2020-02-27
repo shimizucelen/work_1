@@ -133,6 +133,22 @@ body {
           border-radius: 30px;
       }
 
+
+.swiper-container .inner {
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+margin: auto;
+z-index: 50
+}
+
+.swiper-container .swiper-slide img {
+max-width: 100%;
+height: 100%;
+object-fit: cover
+}
+
       .index-btn-wrapper {
           display: flex;
           justify-content: center;
